@@ -15,7 +15,7 @@ function App() {
         <span>emojipedia</span>
       </h1>
 
-      <dl className="dictionary">{emojipedia.map(createEntry)}</dl>
+      <dl className="dictionary">{emojipedia.map(createEntry)}</dl>     //Looping through emojipedia array and sending each object to createEntry Function
     </div>
   );
 }
